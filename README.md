@@ -2,16 +2,9 @@
 
 This repository provides the `Package.swift` file that can be used in Xcode macOS projects to fetch the Switchboard SDK.
 
+Integration Guide: [Integrating the macOS SDK](https://docs.switchboard.audio/integration/macos/)
+
 For iOS projects, use [switchboard-sdk-ios](https://github.com/switchboard-sdk/switchboard-sdk-ios) instead.
-
-> **Note**
-> Do not add both packages to the same Xcode project. They declare the same product and
-> target names, so resolution fails. If you build for both iOS and macOS, add the
-> frameworks manually from the [downloads page](https://docs.switchboard.audio/downloads).
-
-## Requirements
-
-macOS 11.0 or later.
 
 ## License
 

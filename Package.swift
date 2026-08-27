@@ -3,7 +3,7 @@ import PackageDescription
 
 // NOT READY TO PUBLISH: every checksum below is a placeholder. Fill them from the
 // .xcframework.checksum.txt files produced by `inv package-spm --platform macos`
-// and uploaded to builds/release/3.2.6/spm-macos/, then tag 3.2.6.
+// and uploaded to builds/release/3.2.6/spm/macos/, then tag 3.2.6.
 //
 // macOS package. iOS projects use switchboard-sdk-ios instead -- the two declare the
 // same product and target names, so a project cannot depend on both.
@@ -35,57 +35,57 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SwitchboardSDK",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardSDK.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSDK.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardSDK_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardAudioEffects.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardAudioEffects.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardAudioEffects_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardLLM",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardLLM.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardLLM.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardLLM_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardOnnx",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardOnnx.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOnnx.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardOnnx_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardOpenAI",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardOpenAI.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOpenAI.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardOpenAI_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardRNNoise.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardRNNoise.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardRNNoise_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardSherpa",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardSherpa.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSherpa.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardSherpa_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardSileroVAD",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardSileroVAD.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSileroVAD.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardSileroVAD_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardSmartTurn.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSmartTurn.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardSmartTurn_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardSuperpowered.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSuperpowered.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardSuperpowered_CHECKSUM"
         ),
         .binaryTarget(
             name: "SwitchboardWhisper",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm-macos/SwitchboardWhisper.xcframework.zip",
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardWhisper.xcframework.zip",
             checksum: "REPLACE_WITH_SwitchboardWhisper_CHECKSUM"
         ),
     ]

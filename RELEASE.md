@@ -2,7 +2,7 @@
 
 1. Run the macOS release job in `production` mode on the SDK repo. It runs
    `inv package-spm --platform macos` and uploads to
-   `s3://switchboard-sdk-public/builds/release/<version>/spm-macos/`.
+   `s3://switchboard-sdk-public/builds/release/<version>/spm/macos/`.
 2. For each product, copy the value from `<Name>.xcframework.checksum.txt` in that S3
    prefix into the matching `checksum:` field in `Package.swift`, and bump the version in
    every `url:`.

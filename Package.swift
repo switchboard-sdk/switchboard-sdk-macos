@@ -1,13 +1,6 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-// NOT READY TO PUBLISH: every checksum below is a placeholder. Fill them from the
-// .xcframework.checksum.txt files produced by `inv package-spm --platform macos`
-// and uploaded to builds/release/3.2.6/spm/macos/, then tag 3.2.6.
-//
-// macOS package. iOS projects use switchboard-sdk-ios instead -- the two declare the
-// same product and target names, so a project cannot depend on both.
-//
 // Unlike the iOS manifest there are no separate llama/whisper binary targets: on macOS
 // a versioned framework bundle nests its dependencies in its own Frameworks/ directory
 // with @loader_path/Frameworks on the rpath, so they ship inside their parent

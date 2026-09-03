@@ -29,57 +29,57 @@ let package = Package(
         .binaryTarget(
             name: "SwitchboardSDK",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSDK.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardSDK_CHECKSUM"
+            checksum: "848500c20bc634e29fb5b0df11eaa50d1f3ea5a0a96aae38ceb8c2e6a205edce"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardAudioEffects_CHECKSUM"
+            checksum: "978f4d3d4d3ce336273ae75806b826984588ad60579191f5b15acacc32588fc6"
         ),
         .binaryTarget(
             name: "SwitchboardLLM",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardLLM.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardLLM_CHECKSUM"
+            checksum: "42dc3523bcac729503c996add0c6f8272d3291eeb9f366578b5d6fbe221d8c37"
         ),
         .binaryTarget(
             name: "SwitchboardOnnx",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOnnx.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardOnnx_CHECKSUM"
+            checksum: "0a1d42d9fce6206baec52610aea5dbfa6fb0478809fae7ea968f9b378c693319"
         ),
         .binaryTarget(
             name: "SwitchboardOpenAI",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOpenAI.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardOpenAI_CHECKSUM"
+            checksum: "bd016df8477c683fb7bfc7d174b8261cce76b2e46d796a280cafa5b051449257"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardRNNoise.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardRNNoise_CHECKSUM"
+            checksum: "d4ae60cadceabcba8a8f6de0a28a84b137aa3487c99793bbb42b190b45b691f8"
         ),
         .binaryTarget(
             name: "SwitchboardSherpa",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSherpa.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardSherpa_CHECKSUM"
+            checksum: "fe3399f4c9efd67d688398a86ef830327fd36352717592bf94cd4e056f753082"
         ),
         .binaryTarget(
             name: "SwitchboardSileroVAD",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSileroVAD.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardSileroVAD_CHECKSUM"
+            checksum: "e8bcaeaa4db8a915d95c1587bb1b3dfda8b3245ba5f0a366b32133d34b2adbd1"
         ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSmartTurn.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardSmartTurn_CHECKSUM"
+            checksum: "8cc3e30ff18388f75e8ec9e50b25995f12725e3ec84e6534f3cad105e63f0e3c"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardSuperpowered_CHECKSUM"
+            checksum: "af7a6cff8ec89a6906dc9bb3b6e4961a43f78cfcb8cf99eeaa499edea2bb7997"
         ),
         .binaryTarget(
             name: "SwitchboardWhisper",
             url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardWhisper.xcframework.zip",
-            checksum: "REPLACE_WITH_SwitchboardWhisper_CHECKSUM"
+            checksum: "f183eb1c1f32149a6d310de488fe0684da6b4b38782d0dd2fd87dc8d8fbf001f"
         ),
     ]
 )

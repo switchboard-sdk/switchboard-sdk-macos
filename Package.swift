@@ -28,58 +28,58 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SwitchboardSDK",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSDK.xcframework.zip",
-            checksum: "848500c20bc634e29fb5b0df11eaa50d1f3ea5a0a96aae38ceb8c2e6a205edce"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardSDK.xcframework.zip",
+            checksum: "117a7855a367dbd34a64cc52ccc6d0c09608e219cb940472bf3ae52a150f2d00"
         ),
         .binaryTarget(
             name: "SwitchboardAudioEffects",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardAudioEffects.xcframework.zip",
-            checksum: "978f4d3d4d3ce336273ae75806b826984588ad60579191f5b15acacc32588fc6"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardAudioEffects.xcframework.zip",
+            checksum: "8df8124de9f017dfd3b6d2e598167624e6fa9ada1368f7d5a4f17f4a1c7c3053"
         ),
         .binaryTarget(
             name: "SwitchboardLLM",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardLLM.xcframework.zip",
-            checksum: "42dc3523bcac729503c996add0c6f8272d3291eeb9f366578b5d6fbe221d8c37"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardLLM.xcframework.zip",
+            checksum: "0e63b34f0d82e553afa961ffaa699cc302636599c8a0761a655baef57a0fd41f"
         ),
         .binaryTarget(
             name: "SwitchboardOnnx",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOnnx.xcframework.zip",
-            checksum: "0a1d42d9fce6206baec52610aea5dbfa6fb0478809fae7ea968f9b378c693319"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardOnnx.xcframework.zip",
+            checksum: "740045c5f0013678159b9821e3972b976b2cd8bc1da8d4647e1a082a34ab129a"
         ),
         .binaryTarget(
             name: "SwitchboardOpenAI",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardOpenAI.xcframework.zip",
-            checksum: "bd016df8477c683fb7bfc7d174b8261cce76b2e46d796a280cafa5b051449257"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardOpenAI.xcframework.zip",
+            checksum: "a206076b17b70605bcda44a2a2229a665b806f9db515306c3ae6f98c3a81e6fa"
         ),
         .binaryTarget(
             name: "SwitchboardRNNoise",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardRNNoise.xcframework.zip",
-            checksum: "d4ae60cadceabcba8a8f6de0a28a84b137aa3487c99793bbb42b190b45b691f8"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardRNNoise.xcframework.zip",
+            checksum: "9bca870789f166466775821107ce82a0bbfbf65a30514b206ac0a34f0e5a6cc2"
         ),
         .binaryTarget(
             name: "SwitchboardSherpa",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSherpa.xcframework.zip",
-            checksum: "fe3399f4c9efd67d688398a86ef830327fd36352717592bf94cd4e056f753082"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardSherpa.xcframework.zip",
+            checksum: "ebafd5da6c5ccf6067b61135a3b400e97212667dfc3e518dbfd481a9670006bb"
         ),
         .binaryTarget(
             name: "SwitchboardSileroVAD",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSileroVAD.xcframework.zip",
-            checksum: "e8bcaeaa4db8a915d95c1587bb1b3dfda8b3245ba5f0a366b32133d34b2adbd1"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardSileroVAD.xcframework.zip",
+            checksum: "17d4aac2d74dca2020e3845cf6b86995c79f91b6768937c938d21487e0bbdc35"
         ),
         .binaryTarget(
             name: "SwitchboardSmartTurn",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSmartTurn.xcframework.zip",
-            checksum: "8cc3e30ff18388f75e8ec9e50b25995f12725e3ec84e6534f3cad105e63f0e3c"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardSmartTurn.xcframework.zip",
+            checksum: "8ba357209c24fcb1a431d79b7c0305194f06e6ff8c266729200e3adbe617a3cc"
         ),
         .binaryTarget(
             name: "SwitchboardSuperpowered",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardSuperpowered.xcframework.zip",
-            checksum: "af7a6cff8ec89a6906dc9bb3b6e4961a43f78cfcb8cf99eeaa499edea2bb7997"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardSuperpowered.xcframework.zip",
+            checksum: "db48ff4148f9c73d0a23b5db82643b7d0c17ef9f5e51a77504ad7393fd6b4a49"
         ),
         .binaryTarget(
             name: "SwitchboardWhisper",
-            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.6/spm/macos/SwitchboardWhisper.xcframework.zip",
-            checksum: "f183eb1c1f32149a6d310de488fe0684da6b4b38782d0dd2fd87dc8d8fbf001f"
+            url: "https://switchboard-sdk-public.s3.amazonaws.com/builds/release/3.2.7/spm/macos/SwitchboardWhisper.xcframework.zip",
+            checksum: "ff0dcb0c97139193cd588d8cf6788f11fb17c28a49949554a9a42171e6b0b515"
         ),
     ]
 )
